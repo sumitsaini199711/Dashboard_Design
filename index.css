@@ -3,6 +3,8 @@ html,body{
     height: 100%;
     padding: 0;
     margin: 0;
+    color: white;
+    font-family: Arial, sans-serif;
 }
 .outerBody{
     background-color: white;
@@ -29,7 +31,29 @@ html,body{
     border-radius: 25px;
     width: 10%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
+.nav1{
+    width: 100%;
+    margin-top: 33px;
+    text-align: center;
+}
+
+.navItems{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.navItems li{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .HelloMainDiv{
     background-color: #83306e;
     border-radius: 25px;
@@ -42,14 +66,3 @@ html,body{
     width: 30%;
     height: 100%;
 }
-
-/* .navBar{
-    background-color: #332a7c;
-    position: absolute;
-    height: 96%;
-    left: 13px;
-    width: 9%;
-    top: 2%;
-    min-width: 100px;
-    border-radius: 25px;
-} */
