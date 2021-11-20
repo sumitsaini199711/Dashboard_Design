@@ -1,0 +1,55 @@
+html,body{
+    background-color: #fddbaf;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.outerBody{
+    background-color: white;
+    border-radius: 40px;
+    margin: 0;
+    height: 90%;
+    width: 80%;
+    top: 5%;
+    left: 10%;
+    position: absolute;
+}
+
+.flex-Container{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.navBar{
+    background-color: #332a7c;
+    border-radius: 25px;
+    width: 10%;
+    height: 100%;
+}
+.HelloMainDiv{
+    background-color: #83306e;
+    border-radius: 25px;
+    width: 60%;
+    height: 100%;
+}
+.statisticMainDiv{
+    background-color: #19b8a2;
+    border-radius: 25px;
+    width: 30%;
+    height: 100%;
+}
+
+/* .navBar{
+    background-color: #332a7c;
+    position: absolute;
+    height: 96%;
+    left: 13px;
+    width: 9%;
+    top: 2%;
+    min-width: 100px;
+    border-radius: 25px;
+} */
